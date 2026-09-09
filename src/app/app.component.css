@@ -1,16 +1,27 @@
 h1 {
 margin-top: 5px;
 margin-bottom: 5px;
-color: #172033;
+color: #5087ff;
 font-size: 40px;
 text-align: center;
 }
 
 .usuario-logado {
-margin-top: 5px;
+margin-top: 50px;
 margin-right: 30px;
-color: #00ff40;
+color: #249bfc;
 font-size: 16px;
 font-weight: normal;
 text-align: center;
+}
+
+app-footer {
+    display: block;
+    margin-top: auto;
+}
+
+:host {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
